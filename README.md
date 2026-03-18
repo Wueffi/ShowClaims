@@ -4,11 +4,13 @@ Show Claims is a mod designed to show you in whose Claim on a public server you 
 ----
 
 ### Example Config
+```
 default = default Text
 
 [Name]
-corner_a = x y z
+corner_a = x y z 
 corner_b = x y z
+```
 
 ----
 ### Syntax:
