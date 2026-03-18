@@ -23,7 +23,7 @@ public class ConfigLoader {
 
     public static ClaimConfig load(ClientPlayerEntity player) {
         if (isOnORENetwork()) {
-            player.sendMessage(Text.of("§7[§6ShowClaims$7 §dDetected ORE Network. Using GitHub Survival Claims"), false);
+            player.sendMessage(Text.of("§7[§6ShowClaims§7] §dDetected ORE Network. Using GitHub Survival Claims"), false);
             ClaimConfig oreConfig = loadFromGitHub();
             if (oreConfig != null) {
                 return oreConfig;
