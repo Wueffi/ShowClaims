@@ -53,7 +53,7 @@ public class ConfigLoader {
     private static ClaimConfig loadFromGitHub() {
         try {
             HttpClient httpClient = HttpClient.newHttpClient();
-            HttpRequest request = HttpRequest.newBuilder() .uri(URI.create("https://raw.githubusercontent.com/Wueffi/ShowClaims/main/OREClaimsConfig.yml")) .build();
+            HttpRequest request = HttpRequest.newBuilder() .uri(URI.create("https://raw.githubusercontent.com/Wueffi/ShowClaims/refs/heads/main/OREClaimsConfig.yml")) .build();
             HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
 
             if (response.statusCode() != 200) {
