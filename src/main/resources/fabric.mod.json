@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "show-claims",
+  "version": "${version}",
+  "name": "Show Claims",
+  "description": "Show claims defined in a config file on public servers!",
+  "authors": ["Waffle [Wueffi]"],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/show-claims/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "wueffi.showClaims.client.ShowClaimsClient"
+    ],
+    "main": [
+      "wueffi.showClaims.ShowClaims"
+    ]
+  },
+  "mixins": [
+    "show-claims.mixins.json",
+    {
+      "config": "show-claims.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}

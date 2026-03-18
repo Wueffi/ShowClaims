@@ -1,0 +1,5 @@
+default = "No Claim found!"
+
+[Test]
+corner_a = -100 100 -100
+corner_b = 100 0 100
