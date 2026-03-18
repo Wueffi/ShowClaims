@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.render.RenderTickCounter;
+import net.minecraft.util.Colors;
 
 public class HUDRenderer implements HudRenderCallback {
 
@@ -51,6 +52,6 @@ public class HUDRenderer implements HudRenderCallback {
 
         int textX = boxX + 26;
         int textY = boxY + 5;
-        context.drawTextWithShadow(client.textRenderer, text, textX, textY, 0xFFFFFFFF);
+        context.drawTextWithShadow(client.textRenderer, text, textX, textY, Colors.WHITE);
     }
 }
