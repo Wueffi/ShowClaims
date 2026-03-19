@@ -42,6 +42,7 @@ public class ShowClaimsClient implements ClientModInitializer {
     }
 
     private void onClientTick(MinecraftClient client) {
+        if (client.player == null && configLoaded) configLoaded = false;
         if (configLoaded || client.player == null) return;
         configLoaded = true;
         config = ConfigLoader.load(client.player);
