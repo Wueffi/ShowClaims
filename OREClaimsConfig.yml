@@ -1,5 +1,33 @@
 default = No Claim found!
 
-[Test]
-corner_a = -100 100 -100
-corner_b = 100 0 100
+[Spawn]
+corner_a = 35 -64 -6
+corner_b = 21 320 -20
+
+# WFC
+[Wueffi]
+corner_a = 3 54 -5
+corner_b = 18 72 -20
+# WafTower 1
+[Wueffi]
+corner_a = 39 63 -18
+corner_b = 58 121 0
+# WafTower 2
+[Wueffi]
+corner_a = 11 63 -42
+corner_b = 28 320 -84
+# ChunkHole and Area
+[Wueffi]
+corner_a = 58 -64 52
+corner_b = 33 64 -33
+# Trim Shop
+[Wueffi]
+corner_a = 3 63 24
+corner_b = -3 83 12
+# SpawnTown
+[Wueffi]
+corner_a = -83 60 190
+corner_b = 27 320 -89
+[Wueffi]
+corner_a = 27 320 -217
+corner_b = -4 60 -191
