@@ -14,7 +14,7 @@ corner_a = 39 63 -18
 corner_b = 58 121 0
 # WafTower 2
 [Wueffi]
-corner_a = 11 63 -42
+corner_a = -11 63 -42
 corner_b = 28 320 -84
 # ChunkHole and Area
 [Wueffi]
