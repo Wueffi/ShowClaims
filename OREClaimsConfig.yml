@@ -18,7 +18,7 @@ corner_a = -11 63 -42
 corner_b = 28 320 -84
 # ChunkHole and Area
 [Wueffi]
-corner_a = 58 -64 52
+corner_a = 58 -64 -52
 corner_b = 33 64 -33
 # Trim Shop
 [Wueffi]
